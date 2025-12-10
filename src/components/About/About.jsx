@@ -29,7 +29,7 @@ const About = () => {
             <span className="text-white">I am a </span>
             <span className="text-[#8245ec]">
               <Typewriter
-                words={['Softare Learner', 'Full-Stack Developer', 'Problem Solver', 'Coder' ,'Tech Enthusiast',]}
+                words={['Software Engineer', 'Full-Stack Developer', 'Problem Solver', 'Coder' ,'Tech Enthusiast',]}
                 loop={0}
                 cursor
                 cursorStyle="|"
@@ -46,7 +46,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1C3dQoJzrx1bp_BqKDVEPi--KKgf2eFUn/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1ZmoZAexJKsoITHUmjdMmEcEhTM9uSs_g/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
