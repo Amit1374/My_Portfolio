@@ -113,8 +113,8 @@ export const projects = [
       "An authetication system build using React, Spring Boot and MySQL . Here all the users can register themselves through email id and password , they can even change thier pssword if they forgot it using OTP. I have used Brevo here to send OTP to the users. ",
     image: authify,
     tags: [ "React JS", "Bootstrap", "Spring Boot", "MySQL", "Brevo"],
-    github: "",
-    webapp: "",
+    github: "https://github.com/Amit1374/authify-server.git",
+    webapp: "https://authify-client-vkka.onrender.com",
   },
   {
     id: 1,
@@ -123,8 +123,8 @@ export const projects = [
       "A text editor based web application that can be used to to make simple text modification  like uppercase , lower case , sentence case and others and counting the no. or words in the given text.",
     image: textControl,
     tags: ["React JS", "HTML", "CSS", "JavaScript"],
-    github: "",
-    webapp: "",
+    github: "https://github.com/Amit1374/Text-Control.git",
+    webapp: "https://textcontrol.vercel.app/",
   },
   {
     id: 2,
