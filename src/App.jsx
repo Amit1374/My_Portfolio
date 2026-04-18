@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import Work from './components/Work/Work'
 import Footer from './components/Footer'
 import BlurBlob from './components/BlurBlob'
+import Certifications from "./components/Certifications/Certifications";
 
 
 const App = () => {
@@ -25,9 +26,10 @@ const App = () => {
         <Skills />
         <Education />
         <Work />
+        <Certifications />
         <Contact />
         <Footer />
-      </div>
+       </div>
     </div>
 
   )

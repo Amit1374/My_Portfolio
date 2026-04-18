@@ -31,6 +31,11 @@ import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
 
 
+// certification section.
+import java_basics from './assets/certificates/java_basics.png';
+import java_programming from './assets/certificates/java_programming.png';
+
+
 
 export const SkillsInfo = [
   {
@@ -157,3 +162,27 @@ export const projects = [
     webapp: "",
   },
 ];  
+
+
+export const certifications = [
+  {
+    id: 1,
+    title: "Java Programming fundamentals",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image: java_basics,
+    link: "https://your-link.com",
+    category: "java"
+  },
+  {
+    id: 2,
+    title: "Programming using java",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image: java_programming,
+    link: "https://your-link.com",
+    category: "Cloud"
+  }
+];
