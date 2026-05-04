@@ -8,7 +8,7 @@ import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import cLogo from './assets/tech_logo/c.png';
+// import cLogo from './assets/tech_logo/c.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -27,13 +27,23 @@ import sjsLogo from './assets/education_logo/sjs_logo.png'
 import authify from './assets/work_logo/authify.png';
 import textControl from './assets/work_logo/text-control.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+// import taskremLogo from './assets/work_logo/task_rem.png';
+// import npmLogo from './assets/work_logo/npm.png';
 
 
 // certification section.
 import java_basics from './assets/certificates/java_basics.png';
 import java_programming from './assets/certificates/java_programming.png';
+import NoSQL_db from './assets/certificates/NoSQL_db.png';
+import agile from './assets/certificates/agile.png';
+import dbms1 from './assets/certificates/dbms1.png';
+import dbms2 from './assets/certificates/dbms2.png';
+import java_iit from './assets/certificates/java_iit.png';
+import java_foundation_certification from './assets/certificates/java_foundation_certification.png';
+import CyberSecurity from './assets/certificates/CyberSecurity.png';
+import SE_simulation from './assets/certificates/SE_simulation.png';
+import AWS from './assets/certificates/AWS.png';
+
 
 
 
@@ -60,7 +70,7 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
+      // { name: 'C', logo: cLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo }
@@ -86,7 +96,7 @@ export const education = [
     img: gecLogo,
     school: "GOVERNMENT ENGINEERING COLLEGE, MODASA",
     date: "August 2023 - july 2027 (Expected)",
-    grade: "8.39 CGPA (Till 4th Sem)",
+    grade: "8.52 CGPA (Till 5th Sem)",
     desc: "Currently pursuing a Bachelor's degree in Computer Engineering at Government Engineering College, Modasa, where I am building a strong foundation in software development, data structures, algorithms, and modern computing technologies. Actively involved in projects and learning opportunities to enhance my technical skills and practical knowledge.",
     degree: "Bachelor of Engineering (B.E.) in Computer Engineering",
   },
@@ -141,26 +151,7 @@ export const projects = [
     github: "",
     webapp: "",
   },
-  {
-    id: 3,
-    title: "Email Validator NPM Package",
-    description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "",
-    webapp: "",
-  },
-  {
-    id: 4,
-    title: "Task Reminder Chrome Extension Tool",
-    description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    image: taskremLogo,
-    tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "",
-    webapp: "",
-  },
+  
 ];  
 
 
@@ -173,7 +164,7 @@ export const certifications = [
     credentialId: "",
     image: java_basics,
     link: "https://your-link.com",
-    category: "java"
+    category: "Java Technology"
   },
   {
     id: 2,
@@ -183,6 +174,96 @@ export const certifications = [
     credentialId: "",
     image: java_programming,
     link: "https://your-link.com",
-    category: "Cloud"
+    category: "Java Technology"
+  },
+  {
+    id: 3,
+    title: "Intoduction to NoSQL Databases",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:NoSQL_db,
+    link: "https://your-link.com",
+    category: "DBMS"
+  },
+  {
+    id:4,
+    title: "Agile Scrum in Practise",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:agile,
+    link: "https://your-link.com",
+    category: "Software Engineering"
+  },
+   {
+    id:5,
+    title: "Database Management System part-1",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:dbms1,
+    link: "https://your-link.com",
+    category: "DBMS"
+  },
+   {
+    id:6,
+    title: "Database Management System part-2",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:dbms2,
+    link: "https://your-link.com",
+    category: "DBMS"
+  },
+   {
+    id:7,
+    title: "Java Foundation Certification",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:java_foundation_certification,
+    link: "https://your-link.com",
+    category: "Java Technology"
+  },
+   {
+    id:8,
+    title: "Java Training (IIT Bombay)",
+    issuer: "Spoken Tutorial( IIT Bombay)",
+    date: "2024",
+    credentialId: "",
+    image:java_iit,
+    link: "https://your-link.com",
+    category: "Java"
+  },
+  {
+    id:9,
+    title: "Software Engineering Job Simulation",
+    issuer: "Forage (JP Morgan)",
+    date: "2026",
+    credentialId: "",
+    image:SE_simulation,
+    link: "https://your-link.com",
+    category: "Software Engineering"
+  },
+  {
+    id:10,
+    title: "Cybersecurity Analyst Job Simulation",
+    issuer: "Forage (TCS)",
+    date: "2025",
+    credentialId: "",
+    image:CyberSecurity,
+    link: "https://your-link.com",
+    category: "Software Engineering"
+  },
+  {
+    id:11,
+    title: "AWS Architecture Job Simulation",
+    issuer: "Forage (AWS)",
+    date: "2025",
+    credentialId: "",
+    image:AWS,
+    link: "https://your-link.com",
+    category: "Software Engineering"
   }
 ];
