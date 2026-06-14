@@ -21,13 +21,14 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 // Education Section Logo's
 import gecLogo from './assets/education_logo/gec_logo.png';
 import sjsLogo from './assets/education_logo/sjs_logo.png'
+import ckLogo from './assets/education_logo/ck_logo.jpg';
 
 
 // Project Section Logo's
 import authify from './assets/work_logo/authify.png';
 import textControl from './assets/work_logo/text-control.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
+import homeDecor from './assets/work_logo/home-decor.png';
 // import npmLogo from './assets/work_logo/npm.png';
 
 
@@ -43,6 +44,8 @@ import java_foundation_certification from './assets/certificates/java_foundation
 import CyberSecurity from './assets/certificates/CyberSecurity.png';
 import SE_simulation from './assets/certificates/SE_simulation.png';
 import AWS from './assets/certificates/AWS.png';
+import Dsa from './assets/certificates/Dsa.png';
+import oci_ai from './assets/certificates/oci_ai.png';
 
 
 
@@ -102,7 +105,7 @@ export const education = [
   },
   {
     id: 2,
-    img: sjsLogo,
+    img: ckLogo,
     school: "C.K. Prajapati School, Vaodara",
     date: "May 2022 - March 2023",
     grade: "70%",
@@ -114,7 +117,7 @@ export const education = [
     img: sjsLogo,
     school: "Saint Joseph High School",
     date: "July 2020 - March 2021",
-    grade: "84.5%",
+    grade: "87.17%",
     desc:"Completed Secondary School (10th) with consistent academic performance, developing essential skills in logical reasoning, mathematics, and a disciplined approach to learning.",
     degree: "Standard (X)",
   },
@@ -125,21 +128,22 @@ export const projects = [
     id: 0,
     title: "Authify",
     description:
-      "An authetication system build using React, Spring Boot and MySQL . Here all the users can register themselves through email id and password , they can even change thier pssword if they forgot it using OTP. I have used Brevo here to send OTP to the users. ",
+      "An authetication system build using React, Spring Boot and PostgreSQL . Here all the users can register themselves through email id and password , they can even change thier pssword if they forgot it using OTP. I have used Brevo here to send OTP to the users. ",
     image: authify,
-    tags: [ "React JS", "Bootstrap", "Spring Boot", "MySQL", "Brevo"],
+    tags: [ "React JS", "Bootstrap", "Spring Boot", "PostgreSQL", "Brevo"],
     github: "https://github.com/Amit1374/authify-server.git",
     webapp: "https://authify-client-vkka.onrender.com",
   },
+  
   {
     id: 1,
-    title: "Text Control",
+    title: "Home Decor",
     description:
-      "A text editor based web application that can be used to to make simple text modification  like uppercase , lower case , sentence case and others and counting the no. or words in the given text.",
-    image: textControl,
-    tags: ["React JS", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Amit1374/Text-Control.git",
-    webapp: "https://textcontrol.vercel.app/",
+      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    image:homeDecor,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Amit1374/Home-decor.git",
+    webapp: "https://krisha-enterprise.vercel.app/",
   },
   {
     id: 2,
@@ -151,83 +155,57 @@ export const projects = [
     github: "",
     webapp: "",
   },
+  {
+    id: 3,
+    title: "Text Control",
+    description:
+      "A text editor based web application that can be used to to make simple text modification  like uppercase , lower case , sentence case and others and counting the no. or words in the given text.",
+    image: textControl,
+    tags: ["React JS", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Amit1374/Text-Control.git",
+    webapp: "https://textcontrol.vercel.app/",
+  },
   
 ];  
 
 
 export const certifications = [
-  {
-    id: 1,
-    title: "Java Programming fundamentals",
-    issuer: "Infosys",
+   {
+     id:1,
+    title: "Oracle Certified Foundations Associate",
+    issuer: "Oracle",
     date: "2026",
     credentialId: "",
-    image: java_basics,
-    link: "https://your-link.com",
+    image:oci_ai,
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=CBB8B547D23084C56A05301AC6BAB8A013CA3CC4888FDC25CC7F905586B5D682",
+    category: "AI/ML"
+    
+  },
+   {
+     id:2,
+    title: "Data Structures and Algorithms using Java",
+    issuer: "Infosys Springboard",
+    date: "2026",
+    credentialId: "",
+    image:Dsa,
+    link: "https://verify.onwingspan.com",
     category: "Java Technology"
+    
   },
   {
-    id: 2,
-    title: "Programming using java",
-    issuer: "Infosys",
-    date: "2026",
-    credentialId: "",
-    image: java_programming,
-    link: "https://your-link.com",
-    category: "Java Technology"
-  },
-  {
-    id: 3,
-    title: "Intoduction to NoSQL Databases",
-    issuer: "Infosys",
-    date: "2026",
-    credentialId: "",
-    image:NoSQL_db,
-    link: "https://your-link.com",
-    category: "DBMS"
-  },
-  {
-    id:4,
-    title: "Agile Scrum in Practise",
-    issuer: "Infosys",
-    date: "2026",
-    credentialId: "",
-    image:agile,
-    link: "https://your-link.com",
-    category: "Software Engineering"
-  },
-   {
-    id:5,
-    title: "Database Management System part-1",
-    issuer: "Infosys",
-    date: "2026",
-    credentialId: "",
-    image:dbms1,
-    link: "https://your-link.com",
-    category: "DBMS"
-  },
-   {
-    id:6,
-    title: "Database Management System part-2",
-    issuer: "Infosys",
-    date: "2026",
-    credentialId: "",
-    image:dbms2,
-    link: "https://your-link.com",
-    category: "DBMS"
-  },
-   {
-    id:7,
+     id:3,
     title: "Java Foundation Certification",
-    issuer: "Infosys",
+    issuer: "Infosys Springboard",
     date: "2026",
     credentialId: "",
     image:java_foundation_certification,
-    link: "https://your-link.com",
+    link: "https://verify.onwingspan.com",
     category: "Java Technology"
+    
   },
-   {
-    id:8,
+
+  {
+    id:4,
     title: "Java Training (IIT Bombay)",
     issuer: "Spoken Tutorial( IIT Bombay)",
     date: "2024",
@@ -235,29 +213,88 @@ export const certifications = [
     image:java_iit,
     link: "https://your-link.com",
     category: "Java"
+    
+  },
+   
+   {
+    id:5,
+    title: "Database Management System part-2",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:dbms2,
+    link: "https://verify.onwingspan.com",
+    category: "DBMS"
+  },
+   {
+    id:6,
+    title: "Database Management System part-1",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:dbms1,
+    link: "https://verify.onwingspan.com",
+    category: "DBMS"
+   
+  },
+   {
+    id:7,
+    title: "Agile Scrum in Practise",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:agile,
+    link: "https://verify.onwingspan.com",
+    category: "Software Engineering"
+    
+  },
+  {
+    id:8,
+    title: "Intoduction to NoSQL Databases",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image:NoSQL_db,
+    link: "https://verify.onwingspan.com",
+    category: "DBMS"
+    
   },
   {
     id:9,
+    title: "Programming using java",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image: java_programming,
+    link: "https://verify.onwingspan.com",
+    category: "Java Technology"
+    
+  },
+  {
+    id: 10,
+    title: "Java Programming fundamentals",
+    issuer: "Infosys",
+    date: "2026",
+    credentialId: "",
+    image: java_basics,
+    link: "https://verify.onwingspan.com",
+    category: "Java Technology"
+   
+  },
+  
+  {
+    id:11,
     title: "Software Engineering Job Simulation",
     issuer: "Forage (JP Morgan)",
     date: "2026",
     credentialId: "",
     image:SE_simulation,
-    link: "https://your-link.com",
+    link: "https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm/completed",
     category: "Software Engineering"
+    
   },
   {
-    id:10,
-    title: "Cybersecurity Analyst Job Simulation",
-    issuer: "Forage (TCS)",
-    date: "2025",
-    credentialId: "",
-    image:CyberSecurity,
-    link: "https://your-link.com",
-    category: "Software Engineering"
-  },
-  {
-    id:11,
+    id:12,
     title: "AWS Architecture Job Simulation",
     issuer: "Forage (AWS)",
     date: "2025",
@@ -265,5 +302,18 @@ export const certifications = [
     image:AWS,
     link: "https://your-link.com",
     category: "Software Engineering"
-  }
+    
+  },
+   {
+    id:13,
+    title: "Cybersecurity Analyst Job Simulation",
+    issuer: "Forage (TCS)",
+    date: "2025",
+    credentialId: "",
+    image:CyberSecurity,
+    link: "https://your-link.com",
+    category: "Software Engineering"
+    
+  },
 ];
+
