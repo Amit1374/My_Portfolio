@@ -8,7 +8,7 @@ import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-// import cLogo from './assets/tech_logo/c.png';
+import postgresql from './assets/tech_logo/postgresql.svg';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
@@ -28,6 +28,7 @@ import ckLogo from './assets/education_logo/ck_logo.jpg';
 import authify from './assets/work_logo/authify.png';
 import textControl from './assets/work_logo/text-control.png';
 import homeDecor from './assets/work_logo/home-decor.png';
+import alumni from './assets/work_logo/alumni.png';
 
 
 
@@ -67,12 +68,12 @@ export const SkillsInfo = [
       { name: 'Springboot', logo: springbootLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      { name: 'PostgreSQL', logo: postgresql},
     ],
   },
   {
     title: 'Languages',
     skills: [
-      // { name: 'C', logo: cLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo }
@@ -117,7 +118,7 @@ export const education = [
     school: "Saint Joseph High School",
     date: "July 2020 - March 2021",
     grade: "87.17%",
-    desc:"Completed Secondary School (10th) with consistent academic performance, developing essential skills in logical reasoning, mathematics, and a disciplined approach to learning.",
+    desc: "Completed Secondary School (10th) with consistent academic performance, developing essential skills in logical reasoning, mathematics, and a disciplined approach to learning.",
     degree: "Standard (X)",
   },
 ];
@@ -129,22 +130,49 @@ export const projects = [
     description:
       "An authetication system build using React, Spring Boot and PostgreSQL . Here all the users can register themselves through email id and password , they can even change thier pssword if they forgot it using OTP. I have used Brevo here to send OTP to the users. ",
     image: authify,
-    tags: [ "React JS", "Bootstrap", "Spring Boot", "PostgreSQL", "Brevo"],
+    tags: [
+      "React JS",
+      "Spring Boot",
+      "Java",
+      "Spring Security",
+      "JWT Authentication",
+      "PostgreSQL",
+      "REST API",
+      "Full Stack",
+      "Web Application"
+    ],
     github: "https://github.com/Amit1374/authify-server.git",
     webapp: "https://authify-client-vkka.onrender.com",
   },
-  
+
   {
     id: 1,
     title: "Home Decor",
     description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image:homeDecor,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+      "Designed and developed a professional contractor portfolio website for a home renovation and interior design business. The platform showcases completed projects, service offerings, and project galleries while enabling potential clients to connect directly through an EmailJS-powered contact form, one-click calling, and WhatsApp button. Built with a responsive and modern UI to strengthen the business's online presence and customer engagement.",
+    image: homeDecor,
+    tags: ["React JS", "API", "HTML", "CSS", "JavaScript", "Responsive design"],
     github: "https://github.com/Amit1374/Home-decor.git",
     webapp: "https://krisha-enterprise.vercel.app/",
   },
-  
+  {
+    id: 2,
+    title: "NextGen Alumni Association Platform",
+    description:
+      "A full-stack alumni management platform built with React.js, Spring Boot, Spring Security, JWT Authentication, and MySQL. The platform connects students, alumni, and administrators through mentorship programs, internship opportunities, event management, notifications, and role-based dashboards.",
+    image: alumni,
+    tags: [
+      "React JS",
+      "Spring Boot",
+      "Spring Security",
+      "JWT Authentication",
+      "MySQL",
+      "REST API",
+      "Role-Based Access Control",
+    ],
+    github: "https://github.com/Amit1374/alumni-server.git",
+    webapp: "",
+  },
   {
     id: 3,
     title: "Text Control",
@@ -155,102 +183,102 @@ export const projects = [
     github: "https://github.com/Amit1374/Text-Control.git",
     webapp: "https://textcontrol.vercel.app/",
   },
-  
-];  
+
+];
 
 
 export const certifications = [
-   {
-     id:1,
+  {
+    id: 1,
     title: "Oracle Certified Foundations Associate",
     issuer: "Oracle",
     date: "2026",
     credentialId: "",
-    image:oci_ai,
+    image: oci_ai,
     link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=CBB8B547D23084C56A05301AC6BAB8A013CA3CC4888FDC25CC7F905586B5D682",
     category: "AI/ML"
-    
+
   },
-   {
-     id:2,
+  {
+    id: 2,
     title: "Data Structures and Algorithms using Java",
     issuer: "Infosys Springboard",
     date: "2026",
     credentialId: "",
-    image:Dsa,
+    image: Dsa,
     link: "https://verify.onwingspan.com",
     category: "Java Technology"
-    
+
   },
   {
-     id:3,
+    id: 3,
     title: "Java Foundation Certification",
     issuer: "Infosys Springboard",
     date: "2026",
     credentialId: "",
-    image:java_foundation_certification,
+    image: java_foundation_certification,
     link: "https://verify.onwingspan.com",
     category: "Java Technology"
-    
+
   },
 
   {
-    id:4,
+    id: 4,
     title: "Java Training (IIT Bombay)",
     issuer: "Spoken Tutorial( IIT Bombay)",
     date: "2024",
     credentialId: "",
-    image:java_iit,
-    link: "https://your-link.com",
+    image: java_iit,
+    link: "",
     category: "Java"
-    
+
   },
-   
-   {
-    id:5,
+
+  {
+    id: 5,
     title: "Database Management System part-2",
     issuer: "Infosys",
     date: "2026",
     credentialId: "",
-    image:dbms2,
+    image: dbms2,
     link: "https://verify.onwingspan.com",
     category: "DBMS"
   },
-   {
-    id:6,
+  {
+    id: 6,
     title: "Database Management System part-1",
     issuer: "Infosys",
     date: "2026",
     credentialId: "",
-    image:dbms1,
+    image: dbms1,
     link: "https://verify.onwingspan.com",
     category: "DBMS"
-   
+
   },
-   {
-    id:7,
+  {
+    id: 7,
     title: "Agile Scrum in Practise",
     issuer: "Infosys",
     date: "2026",
     credentialId: "",
-    image:agile,
+    image: agile,
     link: "https://verify.onwingspan.com",
     category: "Software Engineering"
-    
+
   },
   {
-    id:8,
+    id: 8,
     title: "Intoduction to NoSQL Databases",
     issuer: "Infosys",
     date: "2026",
     credentialId: "",
-    image:NoSQL_db,
+    image: NoSQL_db,
     link: "https://verify.onwingspan.com",
     category: "DBMS"
-    
+
   },
   {
-    id:9,
+    id: 9,
     title: "Programming using java",
     issuer: "Infosys",
     date: "2026",
@@ -258,7 +286,7 @@ export const certifications = [
     image: java_programming,
     link: "https://verify.onwingspan.com",
     category: "Java Technology"
-    
+
   },
   {
     id: 10,
@@ -269,41 +297,41 @@ export const certifications = [
     image: java_basics,
     link: "https://verify.onwingspan.com",
     category: "Java Technology"
-   
+
   },
-  
+
   {
-    id:11,
+    id: 11,
     title: "Software Engineering Job Simulation",
     issuer: "Forage (JP Morgan)",
     date: "2026",
     credentialId: "",
-    image:SE_simulation,
+    image: SE_simulation,
     link: "https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm/completed",
     category: "Software Engineering"
-    
+
   },
   {
-    id:12,
+    id: 12,
     title: "AWS Architecture Job Simulation",
     issuer: "Forage (AWS)",
     date: "2025",
     credentialId: "",
-    image:AWS,
-    link: "https://your-link.com",
+    image: AWS,
+    link: "",
     category: "Software Engineering"
-    
+
   },
-   {
-    id:13,
+  {
+    id: 13,
     title: "Cybersecurity Analyst Job Simulation",
     issuer: "Forage (TCS)",
     date: "2025",
     credentialId: "",
-    image:CyberSecurity,
-    link: "https://your-link.com",
+    image: CyberSecurity,
+    link: "",
     category: "Software Engineering"
-    
+
   },
 ];
 
