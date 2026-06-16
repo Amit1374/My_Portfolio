@@ -27,9 +27,8 @@ import ckLogo from './assets/education_logo/ck_logo.jpg';
 // Project Section Logo's
 import authify from './assets/work_logo/authify.png';
 import textControl from './assets/work_logo/text-control.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
 import homeDecor from './assets/work_logo/home-decor.png';
-// import npmLogo from './assets/work_logo/npm.png';
+
 
 
 // certification section.
@@ -145,16 +144,7 @@ export const projects = [
     github: "https://github.com/Amit1374/Home-decor.git",
     webapp: "https://krisha-enterprise.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Shopsphere",
-    description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "",
-    webapp: "",
-  },
+  
   {
     id: 3,
     title: "Text Control",
