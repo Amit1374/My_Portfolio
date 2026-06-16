@@ -8,7 +8,7 @@ import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import postgresql from './assets/tech_logo/postgresql.svg';
+import postgresql from './assets/tech_logo/postgresql.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import gitLogo from './assets/tech_logo/git.png';
