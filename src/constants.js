@@ -29,6 +29,7 @@ import authify from './assets/work_logo/authify.png';
 import textControl from './assets/work_logo/text-control.png';
 import homeDecor from './assets/work_logo/home-decor.png';
 import alumni from './assets/work_logo/alumni.png';
+import cep from './assets/work_logo/cep.png';
 
 
 
@@ -124,8 +125,28 @@ export const education = [
 ];
 
 export const projects = [
+  
   {
-    id: 0,
+  id: 0,
+  title: "Continuous Evaluation Portal",
+  description:
+    "A full-stack online examination platform built using React, Spring Boot, and PostgreSQL. It enables professors to create, schedule, and manage examinations while allowing students to securely attempt timed tests with automatic answer saving and instant result evaluation. The application features JWT-based authentication, role-based access control, automated test status management, and a responsive user interface.",
+  image: cep,
+  tags: [
+    "React JS",
+    "Spring Boot",
+    "Spring Security",
+    "JWT Authentication",
+    "PostgreSQL",
+    "REST API",
+    "Role-Based Access",
+    "Online Examination",
+  ],
+  github: "https://github.com/Amit1374/continuous-evaluation-portal.git",
+  webapp: "https://cep-frontend-46m5.onrender.com"
+},
+  {
+    id: 1,
     title: "Authify",
     description:
       "An authetication system build using React, Spring Boot and PostgreSQL . Here all the users can register themselves through email id and password , they can even change thier pssword if they forgot it using OTP. I have used Brevo here to send OTP to the users. ",
