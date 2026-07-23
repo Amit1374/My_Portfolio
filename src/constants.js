@@ -17,6 +17,8 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
+import awsLogo from './assets/tech_logo/awsLogo.png';
+import sqlLogo from './assets/tech_logo/sql.png';
 
 // Education Section Logo's
 import gecLogo from './assets/education_logo/gec_logo.png';
@@ -47,6 +49,8 @@ import SE_simulation from './assets/certificates/SE_simulation.png';
 import AWS from './assets/certificates/AWS.png';
 import Dsa from './assets/certificates/Dsa.png';
 import oci_ai from './assets/certificates/oci_ai.png';
+import aws1 from './assets/certificates/aws1.png';
+import oci_agentic from './assets/certificates/oci_agentic.png';
 
 
 
@@ -69,15 +73,16 @@ export const SkillsInfo = [
       { name: 'Springboot', logo: springbootLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'PostgreSQL', logo: postgresql},
+      { name: 'PostgreSQL', logo: postgresql },
     ],
   },
   {
     title: 'Languages',
     skills: [
       { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo }
+      { name: 'SQL', logo: sqlLogo },
+      { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Python', logo: pythonLogo }
     ],
   },
   {
@@ -89,6 +94,7 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
+      { name: 'AWS', logo: awsLogo }
     ],
   },
 ];
@@ -125,26 +131,26 @@ export const education = [
 ];
 
 export const projects = [
-  
+
   {
-  id: 0,
-  title: "Continuous Evaluation Portal",
-  description:
-    "A full-stack online examination platform built using React, Spring Boot, and PostgreSQL. It enables professors to create, schedule, and manage examinations while allowing students to securely attempt timed tests with automatic answer saving and instant result evaluation. The application features JWT-based authentication, role-based access control, automated test status management, and a responsive user interface.",
-  image: cep,
-  tags: [
-    "React JS",
-    "Spring Boot",
-    "Spring Security",
-    "JWT Authentication",
-    "PostgreSQL",
-    "REST API",
-    "Role-Based Access",
-    "Online Examination",
-  ],
-  github: "https://github.com/Amit1374/continuous-evaluation-portal.git",
-  webapp: "https://cep-frontend-46m5.onrender.com"
-},
+    id: 0,
+    title: "Continuous Evaluation Portal",
+    description:
+      "A full-stack online examination platform built using React, Spring Boot, and PostgreSQL. It enables professors to create, schedule, and manage examinations while allowing students to securely attempt timed tests with automatic answer saving and instant result evaluation. The application features JWT-based authentication, role-based access control, automated test status management, and a responsive user interface.",
+    image: cep,
+    tags: [
+      "React JS",
+      "Spring Boot",
+      "Spring Security",
+      "JWT Authentication",
+      "PostgreSQL",
+      "REST API",
+      "Role-Based Access",
+      "Online Examination",
+    ],
+    github: "https://github.com/Amit1374/continuous-evaluation-portal.git",
+    webapp: "https://cep-frontend-46m5.onrender.com"
+  },
   {
     id: 1,
     title: "Authify",
@@ -209,6 +215,30 @@ export const projects = [
 
 
 export const certifications = [
+
+
+  {
+    id: 14,
+    title: "AWS Cloud Quest: Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    date: "July 2026",
+    credentialId: "",
+    image: aws1,
+    link: "https://www.credly.com/badges/a631a4bc-5924-4741-8eac-fc1105cfdc91/public_url",
+    category: "Cloud"
+
+  },
+  {
+    id: 15,
+    title: "Oracle Certified Agentic AI Foundations Associate",
+    issuer: "Oracle",
+    date: "July 2026",
+    credentialId: "",
+    image: oci_agentic,          // Certificate image         
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=2403FF5B0DD8506E72A352D573B68CBA3911F12864B620E10382C73F2EBA8D71",
+    category: "Cloud & AI"
+  },
+
   {
     id: 1,
     title: "Oracle Certified Foundations Associate",
